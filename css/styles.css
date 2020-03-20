@@ -1,0 +1,175 @@
+* {
+    font-family: 'Cairo', sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  padding: 15px;
+}
+
+.bg {
+  background-image: url("../images/bg2.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.inputs {
+  padding: 8px;
+  margin: 10px;
+}
+
+.btn {
+    margin: 20px;
+}
+
+.cam {
+  height: 250px;
+  width: 250px;
+  margin: 15px;
+  float: right;
+}
+
+.cam2 {
+  height: 250px;
+  width: 250px;
+  margin: 15px;
+  float: left;
+}
+
+.text {
+  margin: 25px;
+}
+
+.f-img {
+  display: flex;
+  margin: auto;
+  padding: 25px;
+  height: 175px;
+}
+
+.content {
+  margin-bottom: 100px;
+}
+
+.content2 {
+  clear: both;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.foot {
+  clear: left;
+}
+
+/* Grid */
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Careers */
+
+.career {
+  text-align: center;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bg-color {
+  background-color: #efeeee;
+}
+
+.bg-color1 {
+  background-color: #e5eeee;
+}
+
+
+.div-img {
+    height: 25%;
+    width: 25% !important;
+    display: flex;
+    margin: auto;
+}
+
+.join {
+  margin: 10px;
+}
+
+.text2 {
+  margin-bottom: 0;
+}
+
+.text3 {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.header3 {
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
